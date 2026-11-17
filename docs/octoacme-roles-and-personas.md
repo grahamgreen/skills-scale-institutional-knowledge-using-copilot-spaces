@@ -75,6 +75,114 @@ Project Managers coordinate delivery activities, manage schedules, risks, and co
 
 ---
 
+## QA / Test Engineers
+
+### Role Summary
+QA / Test Engineers validate that work meets its acceptance criteria and the Definition of Done before it is released. They own the test approach and give the team confidence to ship.
+
+### Responsibilities
+- Draft the initial test plan / QA approach during planning
+- Review acceptance criteria for testability before work is pulled into a sprint
+- Run manual QA for feature acceptance and own the QA column on the project board
+- Prepare and run smoke tests in staging before release and verify after deploy
+- Report defects with clear reproduction steps and severity
+
+### Goals
+- Catch defects before they reach customers
+- Keep automated test coverage growing alongside new features
+- Make release readiness visible and evidence-based
+
+### Typical Communication
+- Daily standups and sprint demos
+- Test plans, defect reports, and PR review comments
+- Release readiness sign-off to the Project Manager
+
+---
+
+## Project Sponsors
+
+### Role Summary
+Project Sponsors are accountable for the business outcome of a project. They authorize work, secure resources, and resolve issues the team cannot resolve on its own.
+
+### Responsibilities
+- Approve projects at the initiation decision gate
+- Confirm priority and secure funding and team availability
+- Act as the final escalation level (Level 3) for business-impacting blockers and risks
+- Make or delegate trade-off decisions on scope, timeline, and budget
+
+### Goals
+- Ensure the project delivers measurable business value
+- Remove organizational blockers quickly
+- Keep the project aligned with company priorities
+
+### Typical Communication
+- Initiation review of the Project One-pager
+- Monthly stakeholder updates and milestone reviews
+- Escalations from the Project Manager and Product Lead
+
+---
+
+## Stakeholders
+
+### Role Summary
+Stakeholders are the groups affected by or contributing to a project, such as sales, support, dependent engineering teams, and customer representatives. They provide input, approvals, and feedback.
+
+### Responsibilities
+- Share requirements, constraints, and dependencies during initiation and planning
+- Review and approve deliverables when their sign-off is needed
+- Prepare their teams for releases (for example, support readiness)
+- Give feedback on delivered increments
+
+### Goals
+- Get outcomes that meet their team's or customers' needs
+- Stay informed without having to chase status
+- Avoid surprises at release time
+
+### Typical Communication
+- Kickoff meeting and stakeholder alignment
+- Weekly or milestone-based status updates and monthly stakeholder updates
+- Release announcements and release notes
+
+---
+
+## Security & On-call Engineers
+
+### Role Summary
+Security and on-call engineers protect production. They respond to incidents, coordinate rollbacks, and make sure security issues follow the security incident runbook.
+
+### Responsibilities
+- Respond when incident response is triggered after a failed or harmful deployment
+- Coordinate rollback to the last known-good release when necessary
+- Handle security incidents per the security incident runbook
+- Review security scan findings that block releases
+- Capture root cause and action items for the post-incident retrospective
+
+### Goals
+- Minimize customer impact and time to recovery
+- Prevent repeat incidents through follow-up actions
+- Keep releases secure by default
+
+### Typical Communication
+- Incident communication: triage summary, actions, expected timeline
+- On-call handoffs and incident channels
+- Blameless post-incident retrospectives
+
+---
+
+## Role Quick Reference
+
+"Product Lead" in other OctoAcme docs refers to the Product Manager.
+
+| Lifecycle stage | Lead | Key contributors | Approves / escalates to |
+| --- | --- | --- | --- |
+| Initiation | Product Manager | Project Manager, Stakeholders | Project Sponsor |
+| Planning | Project Manager | Product Manager, Developers, QA / Test Engineers | Product Manager |
+| Execution | Project Manager | Developers, QA / Test Engineers | Product Manager, then Project Sponsor |
+| Release | Project Manager | Developers, QA / Test Engineers, Security & On-call Engineers | Product Manager |
+| Close & Retrospective | Project Manager | Whole team, Stakeholders | Project Sponsor |
+
+---
+
 ## How these personas are used in the exercise
 - Use these persona definitions to frame scenarios and sample interactions in the Skills Exercise.
 - Each persona can be used as a persona prompt for Copilot Spaces to shape role-specific guidance.
